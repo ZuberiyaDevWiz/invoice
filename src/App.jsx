@@ -37,11 +37,15 @@ const Invoice = () => {
   const sellerGST = {
     number: "27AAACO0471G1ZP",
   };
+  const panNumber = {
+    number: "AAACO0471G",
+  };
   const orderNumber = {
     number: "405 - 8327402 - 5382744",
     date: "10/10/2022",
   };
   return (
+
     <section>
       <div class="logo">
         <div>
@@ -63,7 +67,7 @@ const Invoice = () => {
           <div class="customer">
             <h4>Billing Address</h4>
             <div class="billing-address">
-              <p>
+              <p className="customer-name">
                 {billingAddress.firstName}&nbsp;
                 {billingAddress.lastName}
               </p>
@@ -79,9 +83,9 @@ const Invoice = () => {
             </div>
           </div>
           <div class="customer">
-            <h4>Billing Address</h4>
+            <h4>Delivery Address</h4>
             <div class="billing-address">
-              <p>
+              <p className="customer-name">
                 {shippingAddress.firstName}&nbsp;
                 {shippingAddress.lastName}
               </p>
@@ -99,9 +103,9 @@ const Invoice = () => {
         </div>
         <div class="seller-detail">
           <div class="customer">
-            <h4 class="seller">Seller Address</h4>
+            <h4 class="seller">Seller Detail</h4>
             <div class="seller-address">
-              <p>{sellerAddress.soldBy}&nbsp;</p>
+              <p className="customer-name">{sellerAddress.soldBy}&nbsp;</p>
               <p> {sellerAddress.address}</p>
               <p>{sellerAddress.street}</p>
               <p>
@@ -114,8 +118,14 @@ const Invoice = () => {
             </div>
           </div>
           <div class="gst">
+            <div class="gst-1">
             <h3>GST Registration No:</h3>
             <p>{sellerGST.number}</p>
+            </div>
+            <div class="gst-1">
+              <h3>PAN No:</h3>
+              <p>{panNumber.number}</p>
+            </div>
           </div>
           <div class="order">
             <div class="invoice-number">
@@ -139,9 +149,9 @@ const Invoice = () => {
           <th class="data-six">Tax</th>
           <th class="data-seven">Total</th>
         </tr>
-        <tr className="w    ">
-          <td>1</td>
-          <td>
+        <tr className="row-2">
+          <td >1</td>
+          <td >
             Acer One 10 Tab 4 GB RAM 64GB ROM 10.1 Inch (25.6 cm) with Wi-Fi+4G
             Full HD Android Tablet (Rear: Rose Gold, Front: White) | B09QSYTYR2
             ( OILACERTABT8129L ) HSN:84713010
@@ -158,6 +168,9 @@ const Invoice = () => {
           </td>
           <td>₹15,990.00</td>
         </tr>
+        {
+          
+        }
       </table>
     </section>
   );
