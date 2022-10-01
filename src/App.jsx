@@ -149,28 +149,35 @@ const Invoice = () => {
           <th class="data-six">Tax</th>
           <th class="data-seven">Total</th>
         </tr>
-        <tr className="row-2">
-          <td >1</td>
-          <td >
+        <tr class="row-2">
+          <td class="row-2-td">1</td>
+          <td class="row-2-td" >
             Acer One 10 Tab 4 GB RAM 64GB ROM 10.1 Inch (25.6 cm) with Wi-Fi+4G
             Full HD Android Tablet (Rear: Rose Gold, Front: White) | B09QSYTYR2
             ( OILACERTABT8129L ) HSN:84713010
           </td>
-          <td>1</td>
-          <td>₹0.00</td>
-          <td>₹13,550.85</td>
-          <td>
+          <td class="row-2-td">1</td>
+          <td class="row-2-td">₹0.00</td>
+          <td class="row-2-td">₹13,550.85</td>
+          <td class="row-2-td">
             18%
             <br />
             IGST
             <br />
             ₹2,439.15
           </td>
-          <td>₹15,990.00</td>
+          <td class="row-2-td">₹15,990.00</td>
         </tr>
-        {
-          
-        }
+        <tr class="row-3">
+          <td class="total">TOTAL:</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="totals">₹15,990.00
+</td>
+        </tr>
       </table>
     </section>
   );

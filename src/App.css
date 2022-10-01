@@ -130,5 +130,14 @@ th {
 }
 .row-2 td {
  text-align: center;
-
+ border-bottom: 1px solid black;
+}
+.total {
+  border-left: none;
+}
+.totals {
+  text-align: center;
+}
+.row-3 {
+  border: none;
 }
