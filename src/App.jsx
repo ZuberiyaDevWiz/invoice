@@ -44,6 +44,13 @@ const Invoice = () => {
     number: "405 - 8327402 - 5382744",
     date: "10/10/2022",
   };
+  const totalAmount = {
+    amountInNumbers : "Fifteen Thousand Nine Hundred Ninety only"
+  }
+  const sellerInformation = {
+    companyName: "For Irbaz Industries Ltd.",
+    signImage: "/images/seller_sign.jpeg"
+  }
   return (
 
     <section>
@@ -129,11 +136,11 @@ const Invoice = () => {
           </div>
           <div class="order">
             <div class="invoice-number">
-              <h5>Invoice Number:</h5>
+              <h5>Order Number:</h5>
               <p>{orderNumber.number}</p>
             </div>
             <div class="invoice-number">
-              <h5>Invoice Date:</h5>
+              <h5>Order Date:</h5>
               <p>{orderNumber.date}</p>
             </div>
           </div>
@@ -170,16 +177,26 @@ const Invoice = () => {
         </tr>
         <tr class="row-3">
           <td class="total">TOTAL:</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td class="totals">₹15,990.00
-</td>
+          <td className="total-2"></td>
+          <td className="total-2"></td>
+          <td className="total-2"></td>
+          <td className="total-2"></td>
+          <td className="total-2"></td>
+          <td class="totals">₹15,990.00</td>
         </tr>
       </table>
+      <div className="amount">
+        <tr>Amount in Words:</tr>
+        <tr>{totalAmount.amountInNumbers}</tr>
+      </div>
+      <div className="signature">
+        <tr>{sellerInformation.companyName}</tr>
+        <img src={sellerInformation.signImage} alt="seller signature"/>
+        <tr>Authorized Signatory</tr>
+      </div>   
+      <h4 className="tax">Whether tax is payable under reverse charge - No</h4>
     </section>
   );
 };
 export default Invoice;
+
