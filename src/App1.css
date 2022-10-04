@@ -1,0 +1,141 @@
+section {
+    margin: 2rem;
+    border-bottom: 2px solid black;
+    padding: 1rem;
+  }
+.invoice-2 {
+}
+.tax-invoice {
+    text-align: center;
+}
+.logo img {
+    width: 25%;
+}
+.company {
+    margin-top: 20px;
+}
+.company-name {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0;
+}
+.company-address {
+    margin: 0;
+    font-size: 18px;
+}
+.invoice {
+    margin-top: 20px;
+}
+.invoice div p,h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.invoice div h5 {
+    font-weight: 700;
+    padding-right: 10px;
+}
+.invoice-number {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+.left-content {
+    width: 60%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.right-content p,h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.right-content p {
+    font-size: 18px;
+}
+.seller {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.seller-address p {
+    margin: 5px 0;
+}
+.customer, .gst{
+    text-align: right;
+}
+.gst-1 p, h3 {
+    margin: 5px 0;
+}
+table,
+th {
+  border: 1px solid black;
+}
+td {
+  border-left: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+.data-one {
+  width: 1rem;
+  font-size: 14px;
+  padding: 0 5px;
+  background-color: #cacaca;
+  
+}
+.data-two {
+  width: 22rem;
+  font-size: 14px;
+  padding: 0 5px;
+  background-color: #cacaca;
+
+}
+.data-three, .data-four, .data-five,.data-six, .data-seven {
+  font-size: 14px;
+  padding: 0 5px;
+  background-color: #cacaca;
+}
+.row-2 td {
+ text-align: center;
+ border-bottom: 0.8px solid black;
+}
+.total {
+  border-right: none !important;
+  font-weight: 500;
+
+}
+.row-3 td {
+  /* border-bottom: 1px solid black; */
+  height: 10px;
+}
+.totals {
+  text-align: center;
+  background-color: #cacaca;
+  font-weight: 500;
+
+}
+.total-2 {
+  border-left: none;
+}
+
+.row-3 {
+  border: none;
+}
+.bank-details {
+    margin-top: 1rem;
+}
+.bank {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.bank h4 {
+    font-weight: 500;
+}
