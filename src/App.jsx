@@ -54,10 +54,14 @@ const Invoice = () => {
   return (
 
     <section>
+      
       <div class="logo">
         <div>
           <img src="/images/logo.png" alt="cartibuy logo" />
         </div>
+        <div>
+        <h2>Tax Invoice</h2>
+      </div>
         <div class="invoice">
           <div class="invoice-number">
             <h5>Invoice Number:</h5>
@@ -109,7 +113,7 @@ const Invoice = () => {
           </div>
         </div>
         <div class="seller-detail">
-          <div class="customer">
+          <div class="customer1">
             <h4 class="seller">Seller Detail</h4>
             <div class="seller-address">
               <p className="customer-name">{sellerAddress.soldBy}&nbsp;</p>

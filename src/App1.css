@@ -87,20 +87,20 @@ th {
   width: 1rem;
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
+  background-color: #fcb700;
   
 }
 .data-two {
   width: 22rem;
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
+  background-color: #fcb700;
 
 }
 .data-three, .data-four, .data-five,.data-six, .data-seven {
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
+  background-color: #fcb700;
 }
 .row-2 td {
  text-align: center;
@@ -117,7 +117,7 @@ th {
 }
 .totals {
   text-align: center;
-  background-color: #cacaca;
+  background-color: #fcb700;
   font-weight: 500;
 
 }

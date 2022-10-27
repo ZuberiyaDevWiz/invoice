@@ -47,22 +47,22 @@ const Invoice2 = () => {
         </div>
         <div class="invoice">
           <div class="invoice-number">
-            <h5>Invoice Number:</h5>
+            <h5>Invoice Number :</h5>
             <p>{invoiceData.number}</p>
           </div>
           <div class="invoice-number">
-            <h5>Invoice Date:</h5>
+            <h5>Invoice Date :</h5>
             <p>{invoiceData.date}</p>
           </div>
           <div class="invoice-number">
-            <h5>Invoice Date:</h5>
+            <h5>Invoice Date :</h5>
             <p>{invoiceData.referenceNumber}</p>
           </div>
         </div>
         </div>
         <div className="right-content">
         <div class="customer">
-            <h4 class="seller">Bill To:</h4>
+            <h4 class="seller">Bill To :</h4>
             <div class="seller-address">
               <p className="customer-name">{sellerAddress.soldBy}&nbsp;</p>
               <p> {sellerAddress.address}</p>
@@ -78,11 +78,11 @@ const Invoice2 = () => {
           </div>
           <div class="gst">
             <div class="gst-1">
-            <h3>GST Registration No:</h3>
+            <h3>GST Registration No :</h3>
             <p>{sellerGST.number}</p>
             </div>
             <div class="gst-1">
-              <h3>PAN No:</h3>
+              <h3>PAN No :</h3>
               <p>{panNumber.number}</p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Invoice2 = () => {
         </div>
         <table>
         <tr>
-          <th class="data-one">S.No.</th>
+          <th class="data-one">S.No. </th>
           <th class="data-two">Item</th>
           {/* <th class="data-three"></th> */}
           <th class="data-four">HSN</th>
@@ -156,7 +156,7 @@ const Invoice2 = () => {
           <td class="row-2-td">₹15,990.00</td>
         </tr>
         <tr class="row-3">
-          <td class="total">TOTAL:</td>
+          <td class="total">TOTAL :</td>
           <td className="total-2"></td>
           {/* <td className="total-2"></td> */}
           <td className="total-2"></td>
@@ -167,31 +167,31 @@ const Invoice2 = () => {
       </table>
       <div className="bank-details">
         <div className="bank">
-        <h3>Name of the Bank:</h3>
+        <h3>Name of the Bank :</h3>
         <h4>{bankDetail.bankName}</h4>
         </div>
         <div className="bank">
-        <h3>Name:</h3>
+        <h3>Name :</h3>
         <h4>{bankDetail.accountHolder}</h4>
         </div>
         <div className="bank">
-        <h3>A/C No.:</h3>
+        <h3>A/C No. :</h3>
         <h4>{bankDetail.accountNumber}</h4>
         </div>
         <div className="bank">
-        <h3>IFSC Number</h3>
+        <h3>IFSC Number :</h3>
         <h4>{bankDetail.IFSCNumber}</h4>
         </div>
         <div className="bank">
-        <h3>PAN Number</h3>
+        <h3>PAN Number :</h3>
         <h4>{bankDetail.panNumber}</h4>
         </div>
         <div className="bank">
-        <h3>CIN Number</h3>
+        <h3>CIN Number :</h3>
         <h4>{bankDetail.cinNumber}</h4>
         </div>
         <div className="bank">
-        <h3>GST Number</h3>
+        <h3>GST Number :</h3>
         <h4>{bankDetail.gstInNumber}</h4>
         </div>
       </div>

@@ -21,10 +21,13 @@ section {
   font-size: 1rem;
   font-weight: bold;
   margin: 0.8rem 0px;
+  text-align: left;
+
 }
 .billing-address {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 .billing-address p {
   margin: 2px 0;
@@ -34,12 +37,18 @@ section {
   font-weight: 500;
   font-size: large;
 }
+.customer1 {
+  text-align: right;
+
+}
 .seller-address p {
   text-align: right;
   margin: 2px 0;
 }
 .seller {
   text-align: right;
+  font-size: 1rem;
+
 }
 .invoice {
 }
@@ -102,20 +111,19 @@ th {
   width: 1rem;
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
+  background-color: #fcb700;
   
 }
 .data-two {
   width: 22rem;
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
-
+  background-color: #fcb700;
 }
 .data-three, .data-four, .data-five,.data-six, .data-seven {
   font-size: 14px;
   padding: 0 5px;
-  background-color: #cacaca;
+  background-color: #fcb700;
 }
 .row-2 td {
  text-align: center;
@@ -132,7 +140,7 @@ th {
 }
 .totals {
   text-align: center;
-  background-color: #cacaca;
+  background-color: #fcb700;
   font-weight: 500;
 
 }
@@ -152,7 +160,7 @@ th {
   border-right : 1.5px solid black;
   border-top : 1px solid black;
   font-weight: bold;
-  padding: 5px 0;
+  padding: 5px;
 }
 .signature {
   font-weight: bold;
@@ -171,5 +179,7 @@ th {
   width: 200px;
 }
 .tax {
-  margin: 5px 0;
+  margin: 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
 }
